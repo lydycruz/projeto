@@ -1,0 +1,90 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+  <title> UX </title>
+  <meta charset="utf-8">
+  <meta name="author" content=" UX ">
+  <meta name="description" content=" UX ">
+  <meta name="keywords" content="html5, tecnologia">
+
+  <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+  <!-- Div Inicio -->
+  <div class="toolbar" role="banner">
+
+    <span>Bem-Vindo</span>
+
+  </div>
+
+  <!-- Div Meio -->
+  <div class="content" role="main">
+    <!-- UX -->
+    <h3>Soluções UX</h3>
+    <input type="hidden" #selection>
+    <div class="card-container">
+      <div class="card card-small" (click)="selection.value = 'component'" tabindex="0">
+        <span>Criação UX</span>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
+        <span>Peer Review</span>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
+        <span>QA</span>
+      </div>
+
+    </div>
+    <!-- Banco -->
+    <h3>Informações Banco</h3>
+
+    <input type="hidden" #selection>
+
+    <div class="card-container">
+      <div class="card card-small" (click)="selection.value = 'component'" tabindex="0">
+        <span>Cadastros de Informações</span>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
+        <span>Pós Juridico</span>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
+        <span>Avaliação PO</span>
+      </div>
+
+    </div>
+    <!-- Geral -->
+    <h3>Cadastro Geral</h3>
+
+    <input type="hidden" #selection>
+
+    <div class="card-container">
+      <div class="card card-small" (click)="selection.value = 'component'" tabindex="0"> <a href="cadastro.html">
+        <span>Cadastro de Usuarios</span></a>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
+        <span>Administrador</span>
+      </div>
+
+      <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
+        <span>Relatorios</span>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <footer class="rodape">
+    Todos os direitos reservados
+  </footer>
+</body>
+
+</html>

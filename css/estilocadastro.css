@@ -1,0 +1,145 @@
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #aaa9a9;
+  color: white;
+  font-weight: 600;
+  background-color: gainsboro;
+  box-shadow: 0px 0px 10px black;
+  z-index: 1;
+  height: 40px;
+  text-shadow: 0 1px 1px rgb(114, 114, 114);
+}
+
+.rodape {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #aaa9a9;
+  color: white;
+  font-weight: 600;
+  bottom: 0px;
+  position: absolute;
+  background-color: gainsboro;
+  height: 40px;
+  width: 100%;
+  box-shadow: 0px 0px 10px black;
+  z-index: 1;
+  text-shadow: 0 1px 1px rgb(114, 114, 114);
+}
+
+a{
+  text-decoration: none;
+}
+
+a.links{
+  display: none;
+}
+
+p{
+  margin-bottom:15px;
+}
+
+.formularioux{
+  width: 500px;
+  min-height: 40px;    
+  margin: 0px auto;
+  position: relative;   
+}
+
+h1{
+  font-size: 48px;
+  color:#aaa9a9;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(left, rgba(182, 200, 202, 0) 0%,rgba(147,184,189,0.8) 20%,rgb(165, 171, 172) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgb(129, 131, 131) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+
+
+.formularioux p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: #aaa9a9;
+  position: relative;
+}
+
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+input{
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(202, 179, 179, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit */
+input[type="submit"]{
+  width: 10%!important;
+  cursor: pointer;  
+  background:#aaa9a9;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 15px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px rgb(114, 114, 114);
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+input[type="reset"]{
+  width: 10%!important;
+  cursor: pointer;  
+  background:#aaa9a9;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 15px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px rgb(114, 114, 114);
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 

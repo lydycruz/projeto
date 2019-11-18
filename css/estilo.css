@@ -1,0 +1,132 @@
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 10px 5px;
+    text-shadow: 0 2px 2px rgb(100, 100, 100);
+ 
+  }
+
+  p {
+    margin: 5px;
+  }
+
+  .toolbar {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: #aaa9a9;
+    color: white;
+    font-weight: 600;
+    background-color: gainsboro;
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+    height: 40px;
+    text-shadow: 0 1px 1px rgb(114, 114, 114);
+  
+  }
+
+  .rodape {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: #aaa9a9;
+    color: white;
+    font-weight: 600;
+    bottom: 0px;
+    position: absolute;
+    background-color: gainsboro;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    z-index: 1;
+    text-shadow: 0 1px 1px rgb(114, 114, 114);
+  }
+
+  .content {
+    display: flex;
+    margin: 32px auto;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  .card svg.material-icons path {
+    fill: #888;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+
+  .card.highlight-card {
+    background-color: #76787a;
+    color: white;
+    min-width: 30%;
+    border: none;
+    width: auto;
+    text-align: center;
+    align-content: center;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #76787a;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
